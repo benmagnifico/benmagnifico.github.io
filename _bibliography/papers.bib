@@ -2,17 +2,16 @@
 ---
 
 @inproceedings{Wu2026Survey,
-  abbr={TMLR},
-  title={A Survey on Federated Fine-Tuning of Large Language Models},
-  author={Yebo Wu and Chunlin Tian and Jingguang Li and He Sun and Kahou Tam and Zhanting Zhou and Haicheng Liao and Zhijiang Guo and Li Li and Chengzhong Xu},
-  booktitle={TMLR},
-  year={2026},
+  abbr       ={TMLR},
+  title      ={A Survey on Federated Fine-Tuning of Large Language Models},
+  author     ={Yebo Wu and Chunlin Tian and Jingguang Li and He Sun and Kahou Tam and Zhanting Zhou and Haicheng Liao and Zhijiang Guo and Li Li and Chengzhong Xu},
+  booktitle  ={TMLR},
+  year       ={2026},
   html       = {https://arxiv.org/pdf/2503.12016},
   code       = {https://github.com/Clin0212/Awesome-Federated-LLM-Learning},
   selected   = {false},
-  preview = {FedSurvey.png},
-  annotation   = {* denotes Equal Contribution.},
-  abstract = {Large Language Models (LLMs) have demonstrated impressive success across various tasks. Integrating LLMs with Federated Learning (FL), a paradigm known as FedLLM, offers a promising avenue for collaborative model adaptation while preserving data privacy. This survey provides a systematic and comprehensive review of FedLLM. We begin by tracing the historical development of both LLMs and FL, summarizing relevant prior research to set the context. Subsequently, we delve into an in-depth analysis of the fundamental challenges inherent in deploying FedLLM. Addressing these challenges often requires efficient adaptation strategies; therefore, we conduct an extensive examination of existing Parameter-Efficient Fine-tuning (PEFT) methods and explore their applicability within the FL framework. To rigorously evaluate the performance of FedLLM, we undertake a thorough review of existing fine-tuning datasets and evaluation benchmarks. Furthermore, we discuss FedLLM's diverse real-world applications across multiple domains. Finally, we identify critical open challenges and outline promising research directions to foster future advancements in FedLLM. This survey aims to serve as a foundational resource for researchers and practitioners, offering valuable insights into the rapidly evolving landscape of federated fine-tuning for LLMs. It also establishes a roadmap for future innovations in privacy-preserving AI. We actively maintain a GitHub repo \href{this https URL}{this https URL} to track cutting-edge advancements in this field.}
+  preview    = {FedSurvey.png},
+  abstract   = {Large Language Models (LLMs) have demonstrated impressive success across various tasks. Integrating LLMs with Federated Learning (FL), a paradigm known as FedLLM, offers a promising avenue for collaborative model adaptation while preserving data privacy. This survey provides a systematic and comprehensive review of FedLLM. We begin by tracing the historical development of both LLMs and FL, summarizing relevant prior research to set the context. Subsequently, we delve into an in-depth analysis of the fundamental challenges inherent in deploying FedLLM. Addressing these challenges often requires efficient adaptation strategies; therefore, we conduct an extensive examination of existing Parameter-Efficient Fine-tuning (PEFT) methods and explore their applicability within the FL framework. To rigorously evaluate the performance of FedLLM, we undertake a thorough review of existing fine-tuning datasets and evaluation benchmarks. Furthermore, we discuss FedLLM's diverse real-world applications across multiple domains. Finally, we identify critical open challenges and outline promising research directions to foster future advancements in FedLLM. This survey aims to serve as a foundational resource for researchers and practitioners, offering valuable insights into the rapidly evolving landscape of federated fine-tuning for LLMs. It also establishes a roadmap for future innovations in privacy-preserving AI. We actively maintain a GitHub repo \href{this https URL}{this https URL} to track cutting-edge advancements in this field.}
 }
 
 @inproceedings{WuDevFT2026,
@@ -55,16 +54,15 @@
 }
 
 @inproceedings{wu2024bridging,
-  abbr={arXiv},
-  title={Bridging Memory Gaps: Scaling Federated Learning for Heterogeneous Clients},
-  author={Yebo Wu and Jingguang Li and Chunlin Tian and Kahou Tam and Li Li and Chengzhong Xu},
-  booktitle={arXiv},
-  year={2024},
-  html       = {https://arxiv.org/pdf/2408.10826},
-  selected   = {false},
-  preview = {gaps.jpg},
-  % annotation   = {* denotes Equal Contribution.},
-  abstract = {Federated Learning (FL) enables multiple clients to collaboratively train a shared model while preserving data privacy. However, the high memory demand during model training severely limits the deployment of FL on resource-constrained clients. To this end, we propose \our, a scalable and inclusive FL framework designed to overcome memory limitations through sequential block-wise training. The core idea of \our is to partition the global model into blocks and train them sequentially, thereby reducing training memory requirements. To mitigate information loss during block-wise training, \our introduces a Curriculum Mentor that crafts curriculum-aware training objectives for each block to steer their learning process. Moreover, \our incorporates a Training Harmonizer that designs a parameter co-adaptation training scheme to coordinate block updates, effectively breaking inter-block information isolation. Extensive experiments on both simulation and hardware testbeds demonstrate that \our significantly improves model performance by up to 84.2\%, reduces peak memory usage by up to 50.4\%, and accelerates training by up to 1.9x.}
+  abbr      = {arXiv},
+  title     = {Bridging Memory Gaps: Scaling Federated Learning for Heterogeneous Clients},
+  author    = {Yebo Wu and Jingguang Li and Chunlin Tian and Kahou Tam and Li Li and Chengzhong Xu},
+  booktitle = {arXiv},
+  year      = {2024},
+  html      = {https://arxiv.org/pdf/2408.10826},
+  selected  = {false},
+  preview   = {gaps.jpg},
+  abstract  = {Federated Learning (FL) enables multiple clients to collaboratively train a shared model while preserving data privacy. However, the high memory demand during model training severely limits the deployment of FL on resource-constrained clients. To this end, we propose \our, a scalable and inclusive FL framework designed to overcome memory limitations through sequential block-wise training. The core idea of \our is to partition the global model into blocks and train them sequentially, thereby reducing training memory requirements. To mitigate information loss during block-wise training, \our introduces a Curriculum Mentor that crafts curriculum-aware training objectives for each block to steer their learning process. Moreover, \our incorporates a Training Harmonizer that designs a parameter co-adaptation training scheme to coordinate block updates, effectively breaking inter-block information isolation. Extensive experiments on both simulation and hardware testbeds demonstrate that \our significantly improves model performance by up to 84.2\%, reduces peak memory usage by up to 50.4\%, and accelerates training by up to 1.9x.}
 }
 
 % @string{aps = {American Physical Society,}}
