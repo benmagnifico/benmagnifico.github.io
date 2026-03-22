@@ -1,115 +1,181 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1920relativity,
-  title     = {Relativity: the Special and General Theory},
-  author    = {Einstein, Albert},
-  year      = {1920},
-  publisher = {Methuen & Co Ltd},
-  html      = {relativity.html}
+@inproceedings{Wu2026Survey,
+  abbr={TMLR},
+  title={A Survey on Federated Fine-Tuning of Large Language Models},
+  author={Yebo Wu and Chunlin Tian and Jingguang Li and He Sun and Kahou Tam and Zhanting Zhou and Haicheng Liao and Zhijiang Guo and Li Li and Chengzhong Xu},
+  booktitle={TMLR},
+  year={2026},
+  html       = {https://arxiv.org/pdf/2503.12016},
+  code       = {https://github.com/Clin0212/Awesome-Federated-LLM-Learning},
+  selected   = {false},
+  preview = {FedSurvey.png},
+  annotation   = {* denotes Equal Contribution.},
+  abstract = {Large Language Models (LLMs) have demonstrated impressive success across various tasks. Integrating LLMs with Federated Learning (FL), a paradigm known as FedLLM, offers a promising avenue for collaborative model adaptation while preserving data privacy. This survey provides a systematic and comprehensive review of FedLLM. We begin by tracing the historical development of both LLMs and FL, summarizing relevant prior research to set the context. Subsequently, we delve into an in-depth analysis of the fundamental challenges inherent in deploying FedLLM. Addressing these challenges often requires efficient adaptation strategies; therefore, we conduct an extensive examination of existing Parameter-Efficient Fine-tuning (PEFT) methods and explore their applicability within the FL framework. To rigorously evaluate the performance of FedLLM, we undertake a thorough review of existing fine-tuning datasets and evaluation benchmarks. Furthermore, we discuss FedLLM's diverse real-world applications across multiple domains. Finally, we identify critical open challenges and outline promising research directions to foster future advancements in FedLLM. This survey aims to serve as a foundational resource for researchers and practitioners, offering valuable insights into the rapidly evolving landscape of federated fine-tuning for LLMs. It also establishes a roadmap for future innovations in privacy-preserving AI. We actively maintain a GitHub repo \href{this https URL}{this https URL} to track cutting-edge advancements in this field.}
 }
 
-@book{einstein1956investigations,
-  bibtex_show = {true},
-  title       = {Investigations on the Theory of the Brownian Movement},
-  author      = {Einstein, Albert},
-  year        = {1956},
-  publisher   = {Courier Corporation},
-  preview     = {brownian-motion.gif}
+@inproceedings{WuDevFT2026,
+  abbr={ICLR},
+  title={Learning Like Humans: Resource-Efficient Federated Fine-Tuning through Cognitive Developmental Stages},
+  author={Yebo Wu* and Jingguang Li* and Zhijiang Guo and Li Li},
+  booktitle    = {ICLR},
+  year={2026},
+  html       = {https://arxiv.org/pdf/2508.00041},
+  selected   = {true},
+  preview = {DevFT.png},
+  annotation   = {* denotes Equal Contribution.},
+  abstract = {Federated fine-tuning enables Large Language Models (LLMs) to adapt to downstream tasks while preserving data privacy, but its resource-intensive nature limits deployment on edge devices. In this paper, we introduce Developmental Federated Tuning (DevFT), a resource-efficient approach inspired by cognitive development that progressively builds a powerful LLM from a compact foundation. DevFT decomposes the fine-tuning process into developmental stages, each optimizing submodels with increasing parameter capacity. Knowledge from earlier stages transfers to subsequent submodels, providing optimized initialization parameters that prevent convergence to local minima and accelerate training. This paradigm mirrors human learning, gradually constructing comprehensive knowledge structure while refining existing skills. To efficiently build stage-specific submodels, DevFT introduces deconfliction-guided layer grouping and differential-based layer fusion to distill essential information and construct representative layers. Evaluations across multiple benchmarks demonstrate that DevFT significantly outperforms state-of-the-art methods, achieving up to 4.59 faster convergence, 10.67 reduction in communication overhead, and 9.07% average performance improvement, while maintaining compatibility with existing approaches.}
 }
 
-@article{einstein1950meaning,
-  abbr        = {AJP},
-  bibtex_show = {true},
-  title       = {The meaning of relativity},
-  author      = {Einstein, Albert and Taub, AH},
-  journal     = {American Journal of Physics},
-  volume      = {18},
-  number      = {6},
-  pages       = {403--404},
-  year        = {1950},
-  publisher   = {American Association of Physics Teachers}
+@inproceedings{wu2025elastic,
+  abbr={arXiv},
+  title={Elastic Mixture of Rank-Wise Experts for Knowledge Reuse in Federated Fine-Tuning},
+  author={Yebo Wu* and Jingguang Li* and Zhijiang Guo and Li Li},
+  booktitle={arXiv},
+  year={2025},
+  html       = {https://arxiv.org/pdf/2512.00902},
+  selected   = {true},
+  preview = {smartfed.jpg},
+  annotation   = {* denotes Equal Contribution.},
+  abstract = {Federated fine-tuning offers a promising solution for adapting Large Language Models (LLMs) to downstream tasks while safeguarding data privacy. However, its high computational and communication demands hinder its deployment on resource-constrained devices. In this paper, we propose SmartFed, a resource-efficient federated fine-tuning framework. SmartFed intelligently reuses knowledge embedded in existing LoRA modules, eliminating the need for expensive training from scratch when adapting LLMs to new tasks. To effectively exploit this knowledge and ensure scalability, we introduce the Mixture of Rank-Wise Experts (MoRE). MoRE decomposes LoRA modules into fine-grained rank-level experts. These experts are selectively activated and combined based on input semantics and resource budgets. Moreover, to optimize resource utilization, we present the Elastic Expert Quota Allocation (EEQA). EEQA adaptively allocates expert capacity across parameter matrices based on their contribution to model performance, focusing computing resources on the critical experts. Extensive evaluations across multiple benchmarks demonstrate that SmartFed significantly outperforms existing methods in model performance and training efficiency.}
 }
 
-@article{PhysRev.47.777,
-  abbr              = {PhysRev},
-  title             = {Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author            = {Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract          = {In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal           = {Phys. Rev.},
-  location          = {New Jersey},
-  volume            = {47},
-  issue             = {10},
-  pages             = {777--780},
-  numpages          = {0},
-  year              = {1935},
-  month             = {May},
-  publisher         = aps,
-  doi               = {10.1103/PhysRev.47.777},
-  url               = {https://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html              = {https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf               = {example_pdf.pdf},
-  altmetric         = {248277},
-  dimensions        = {true},
-  google_scholar_id = {qyhmnyLat1gC},
-  video             = {https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info   = {. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation        = {* Example use of superscripts<br>† Albert Einstein},
-  selected          = {true},
-  inspirehep_id     = {3255}
+@inproceedings{wu2025memory,
+  abbr={arXiv},
+  title={Memory-Efficient Federated Fine-Tuning of Large Language Models via Layer Pruning},
+  author={Yebo Wu* and Jingguang Li* and Chunlin Tian and Zhijiang Guo and Li Li},
+  booktitle={arXiv},
+  year={2025},
+  html       = {https://arxiv.org/pdf/2508.17209},
+  selected   = {true},
+  preview = {fedpruner.jpg},
+  annotation   = {* denotes Equal Contribution.},
+  abstract = {Federated fine-tuning enables privacy-preserving Large Language Model (LLM) adaptation, but its high memory cost limits participation from resource-constrained devices. We propose FedPruner, an innovative federated fine-tuning paradigm that tackles this via intelligent layer pruning. FedPruner flexibly prunes the global model, creating personalized submodels based on device memory constraints. It employs a macro-micro synergistic pruning framework: a macro-level functionality-driven layer orchestration mechanism groups layers, while a micro-level importance-aware layer selection strategy prunes within groups to build device-specific submodels. We further introduce a fine-grained variant that independently prunes Multi-Head Attention and Feed-Forward Network components to precisely preserve critical architectural elements. Extensive experimental results demonstrate that FedPruner significantly outperforms state-of-the-art approaches, achieving up to a 1.98\% improvement in average model accuracy while reducing peak memory usage by 75\%.}
 }
 
-@article{einstein1905molekularkinetischen,
-  title     = {{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author    = {Einstein, A.},
-  journal   = {Annalen der physik},
-  volume    = {322},
-  number    = {8},
-  pages     = {549--560},
-  year      = {1905},
-  publisher = {Wiley Online Library}
+@inproceedings{wu2024bridging,
+  abbr={arXiv},
+  title={Bridging Memory Gaps: Scaling Federated Learning for Heterogeneous Clients},
+  author={Yebo Wu and Jingguang Li and Chunlin Tian and Kahou Tam and Li Li and Chengzhong Xu},
+  booktitle={arXiv},
+  year={2024},
+  html       = {https://arxiv.org/pdf/2408.10826},
+  selected   = {false},
+  preview = {gaps.jpg},
+  % annotation   = {* denotes Equal Contribution.},
+  abstract = {Federated Learning (FL) enables multiple clients to collaboratively train a shared model while preserving data privacy. However, the high memory demand during model training severely limits the deployment of FL on resource-constrained clients. To this end, we propose \our, a scalable and inclusive FL framework designed to overcome memory limitations through sequential block-wise training. The core idea of \our is to partition the global model into blocks and train them sequentially, thereby reducing training memory requirements. To mitigate information loss during block-wise training, \our introduces a Curriculum Mentor that crafts curriculum-aware training objectives for each block to steer their learning process. Moreover, \our incorporates a Training Harmonizer that designs a parameter co-adaptation training scheme to coordinate block updates, effectively breaking inter-block information isolation. Extensive experiments on both simulation and hardware testbeds demonstrate that \our significantly improves model performance by up to 84.2\%, reduces peak memory usage by up to 50.4\%, and accelerates training by up to 1.9x.}
 }
 
-@article{einstein1905movement,
-  abbr    = {Ann. Phys.},
-  title   = {Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author  = {Einstein, A.},
-  journal = {Ann. Phys.},
-  volume  = {17},
-  pages   = {549--560},
-  year    = {1905}
-}
+% @string{aps = {American Physical Society,}}
 
-@article{einstein1905electrodynamics,
-  title  = {On the electrodynamics of moving bodies},
-  author = {Einstein, A.},
-  year   = {1905}
-}
+% @book{einstein1920relativity,
+%   title     = {Relativity: the Special and General Theory},
+%   author    = {Einstein, Albert},
+%   year      = {1920},
+%   publisher = {Methuen & Co Ltd},
+%   html      = {relativity.html}
+% }
 
-@article{einstein1905photoelectriceffect,
-  bibtex_show = {true},
-  abbr        = {Ann. Phys.},
-  title       = {{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}},
-  author      = {Albert Einstein},
-  abstract    = {This is the abstract text.},
-  journal     = {Ann. Phys.},
-  volume      = {322},
-  number      = {6},
-  pages       = {132--148},
-  year        = {1905},
-  doi         = {10.1002/andp.19053220607},
-  award       = {Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name  = {Nobel Prize}
-}
+% @book{einstein1956investigations,
+%   bibtex_show = {true},
+%   title       = {Investigations on the Theory of the Brownian Movement},
+%   author      = {Einstein, Albert},
+%   year        = {1956},
+%   publisher   = {Courier Corporation},
+%   preview     = {brownian-motion.gif}
+% }
 
-@book{przibram1967letters,
-  bibtex_show = {true},
-  title       = {Letters on wave mechanics},
-  author      = {Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year        = {1967},
-  publisher   = {Vision},
-  preview     = {wave-mechanics.gif},
-  abbr        = {Vision}
-}
+% @article{einstein1950meaning,
+%   abbr        = {AJP},
+%   bibtex_show = {true},
+%   title       = {The meaning of relativity},
+%   author      = {Einstein, Albert and Taub, AH},
+%   journal     = {American Journal of Physics},
+%   volume      = {18},
+%   number      = {6},
+%   pages       = {403--404},
+%   year        = {1950},
+%   publisher   = {American Association of Physics Teachers}
+% }
+
+% @article{PhysRev.47.777,
+%   abbr              = {PhysRev},
+%   title             = {Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
+%   author            = {Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
+%   abstract          = {In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
+%   journal           = {Phys. Rev.},
+%   location          = {New Jersey},
+%   volume            = {47},
+%   issue             = {10},
+%   pages             = {777--780},
+%   numpages          = {0},
+%   year              = {1935},
+%   month             = {May},
+%   publisher         = aps,
+%   doi               = {10.1103/PhysRev.47.777},
+%   url               = {https://link.aps.org/doi/10.1103/PhysRev.47.777},
+%   html              = {https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
+%   pdf               = {example_pdf.pdf},
+%   altmetric         = {248277},
+%   dimensions        = {true},
+%   google_scholar_id = {qyhmnyLat1gC},
+%   video             = {https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
+%   additional_info   = {. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
+%   annotation        = {* Example use of superscripts<br>† Albert Einstein},
+%   selected          = {true},
+%   inspirehep_id     = {3255}
+% }
+
+% @article{einstein1905molekularkinetischen,
+%   title     = {{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
+%   author    = {Einstein, A.},
+%   journal   = {Annalen der physik},
+%   volume    = {322},
+%   number    = {8},
+%   pages     = {549--560},
+%   year      = {1905},
+%   publisher = {Wiley Online Library}
+% }
+
+% @article{einstein1905movement,
+%   abbr    = {Ann. Phys.},
+%   title   = {Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
+%   author  = {Einstein, A.},
+%   journal = {Ann. Phys.},
+%   volume  = {17},
+%   pages   = {549--560},
+%   year    = {1905}
+% }
+
+% @article{einstein1905electrodynamics,
+%   title  = {On the electrodynamics of moving bodies},
+%   author = {Einstein, A.},
+%   year   = {1905}
+% }
+
+% @article{einstein1905photoelectriceffect,
+%   bibtex_show = {true},
+%   abbr        = {Ann. Phys.},
+%   title       = {{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}},
+%   author      = {Albert Einstein},
+%   abstract    = {This is the abstract text.},
+%   journal     = {Ann. Phys.},
+%   volume      = {322},
+%   number      = {6},
+%   pages       = {132--148},
+%   year        = {1905},
+%   doi         = {10.1002/andp.19053220607},
+%   award       = {Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
+%   award_name  = {Nobel Prize}
+% }
+
+% @book{przibram1967letters,
+%   bibtex_show = {true},
+%   title       = {Letters on wave mechanics},
+%   author      = {Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
+%   year        = {1967},
+%   publisher   = {Vision},
+%   preview     = {wave-mechanics.gif},
+%   abbr        = {Vision}
+% }
