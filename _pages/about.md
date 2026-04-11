@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: jingguangli2001 AT gmail.com. My name 李景光 can be pronounced Lee Kyung-kwang in Korean.
+subtitle: jingguangli2001 AT gmail.com. My name can be pronounced Lee Kyung-kwang in Korean.
 
 profile:
   align: right
@@ -27,7 +27,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi! 👋 My name is **Jingguang Li (李景光)**. I am currently a Master's student in Artificial Intelligence at the [State Key Laboratory of IoTSC](https://skliotsc.um.edu.mo), [University of Macau](https://www.um.edu.mo). I will be joining the [Cho Chun Shik Graduate School of Mobility](https://mo.kaist.ac.kr/en/), [Korea Advanced Institute of Science and Technology](https://www.kaist.ac.kr/en/) as a PhD student in the Fall of 2026, working under the supervision of [Dr. Heye Huang](https://mo.kaist.ac.kr/en/professor/heye-huang/). 
+Hi! 👋 My name is **Jingguang Li (李景光)**. I am currently a Master's student in Artificial Intelligence at the [State Key Laboratory of IoTSC](https://skliotsc.um.edu.mo), [University of Macau](https://www.um.edu.mo). I will be joining the [Cho Chun Shik Graduate School of Mobility](https://mo.kaist.ac.kr/en/), [Korea Advanced Institute of Science and Technology](https://www.kaist.ac.kr/en/) as a PhD student in the Fall of 2026, working under the supervision of [Dr. Heye Huang](https://huangheye.github.io). 
 
 I expect to earn my M.Sc. in 2026 under the guidance of [Prof. Chengzhong Xu](https://www.fst.um.edu.mo/personal/czxu/) and [Prof. Li Li](https://www.fst.um.edu.mo/personal/llili/). Before this, I received my B.Eng. in Software Engineering from [Harbin Institute of Technology](https://en.hit.edu.cn) in 2024.
 

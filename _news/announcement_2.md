@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-My [survey](https://arxiv.org/pdf/2503.12016) is accepted at [TMLR](https://jmlr.org/tmlr/) 🎉
+Our [survey](https://arxiv.org/pdf/2503.12016) is accepted by [TMLR](https://jmlr.org/tmlr/) 🎉

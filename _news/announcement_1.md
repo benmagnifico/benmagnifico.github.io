@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-My paper [DevFT](https://arxiv.org/abs/2508.00041) is accepted at [ICLR 2026](https://iclr.cc/) 🎉
+Our paper [DevFT](https://arxiv.org/abs/2508.00041) is accepted by [ICLR 2026](https://iclr.cc/) 🎉
