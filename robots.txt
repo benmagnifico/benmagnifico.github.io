@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://benmagnifico.github.io/sitemap.xml
+Sitemap: https://jingguangli.com/sitemap.xml
