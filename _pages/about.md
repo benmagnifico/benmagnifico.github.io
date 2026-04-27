@@ -33,7 +33,7 @@ I expect to earn my M.Sc. in 2026 under the guidance of [Prof. Chengzhong Xu](ht
 
 I am actively open to research discussions and industry connections! Feel free to email me if you are interested in collaborating or sharing ideas. 
 
-I am interested in natural language processing and machine learning, with a particular focus on the efficient post-training of large language models (LLMs) under critical memory, communication, and compute constraints. My research also focuses on mitigating hallucinations in multimodal LLMs to address perceptual deficiencies. Moving forward, my research interests are expanding into the application of LLM agents.
+I am interested in natural language processing and machine learning, with a particular focus on the efficient post-training of large language models (LLMs) under critical memory, communication, and compute constraints. My research also focuses on mitigating hallucinations in multimodal LLMs to address perceptual deficiencies. Moving forward, my research interests are expanding into the application of Embodied Agents, Physical AI, and Autonomous Driving.
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 

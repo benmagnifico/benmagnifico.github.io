@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper [ChainFed](https://arxiv.org/abs/2604.06819) is accepted by [ACL 2026 Jan](https://2026.aclweb.org) 🎉
+Our paper [ChainFed](https://arxiv.org/abs/2604.06819) is accepted by [ACL Main Conference](https://2026.aclweb.org) 🎉
