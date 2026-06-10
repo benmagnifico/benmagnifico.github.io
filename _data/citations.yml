@@ -1,20 +1,20 @@
 metadata:
-  last_updated: '2026-05-18'
+  last_updated: '2026-06-10'
 papers:
   cXPWaF8AAAAJ:2osOgNQ5qMEC:
-    citations: 47
+    citations: 49
     title: A Survey on Federated Fine-Tuning of Large Language Models
     year: '2026'
   cXPWaF8AAAAJ:9yKSN-GCB0IC:
-    citations: 6
+    citations: 7
     title: Memory-Efficient Federated Fine-Tuning of Large Language Models via Layer Pruning
     year: '2025'
   cXPWaF8AAAAJ:d1gkVwhDpl0C:
-    citations: 1
+    citations: 2
     title: 'Bridging Memory Gaps: Scaling Federated Learning for Heterogeneous Clients'
     year: '2024'
   cXPWaF8AAAAJ:qjMakFHDy7sC:
-    citations: 1
+    citations: 2
     title: 'Beyond End-to-End: Dynamic Chain Optimization for Private LLM Adaptation on the Edge'
     year: '2026'
   cXPWaF8AAAAJ:u-x6o8ySG0sC:
@@ -22,6 +22,6 @@ papers:
     title: 'Developmental Federated Tuning: A Cognitive-Inspired Paradigm for Efficient LLM Adaptation'
     year: '2026'
   cXPWaF8AAAAJ:u5HHmVD_uO8C:
-    citations: 6
+    citations: 7
     title: Elastic Mixture of Rank-Wise Experts for Knowledge Reuse in Federated Fine-Tuning
     year: '2025'
