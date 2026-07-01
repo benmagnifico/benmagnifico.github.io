@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: jingguangli2001 AT gmail.com. My name can be pronounced Lee Kyung-kwang in Korean.
+subtitle: Ph.D. Student from [Cho Chun Shik Graduate School of Mobility](https://mo.kaist.ac.kr/en/), [Korea Advanced Institute of Science and Technology](https://www.kaist.ac.kr/en/)
 
 profile:
   align: right
@@ -27,13 +27,15 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi! 👋 My name is **Jingguang Li (李景光)**. I am currently a Master's student in Artificial Intelligence at the [State Key Laboratory of IoTSC](https://skliotsc.um.edu.mo), [University of Macau](https://www.um.edu.mo). I will be joining the [Cho Chun Shik Graduate School of Mobility](https://mo.kaist.ac.kr/en/), [Korea Advanced Institute of Science and Technology](https://www.kaist.ac.kr/en/) as a PhD student in the Fall of 2026, working under the supervision of [Dr. Heye Huang](https://huangheye.github.io). 
+Hi! 👋 My name is **Jingguang Li (李景光, 이경광)**. I am a Ph.D. student at the [Cho Chun Shik Graduate School of Mobility](https://mo.kaist.ac.kr/en/), [Korea Advanced Institute of Science and Technology](https://www.kaist.ac.kr/en/), working under the supervision of [Dr. Heye Huang](https://huangheye.github.io). 
 
-I expect to earn my M.Sc. in 2026 under the guidance of [Prof. Chengzhong Xu](https://www.fst.um.edu.mo/personal/czxu/) and [Prof. Li Li](https://www.fst.um.edu.mo/personal/llili/). Before this, I received my B.Eng. in Software Engineering from [Harbin Institute of Technology](https://en.hit.edu.cn) in 2024.
+I earned my M.Sc. in Artificial Intelligence in 2026 from the [State Key Laboratory of IoTSC](https://skliotsc.um.edu.mo), [University of Macau](https://www.um.edu.mo), under the guidance of [Prof. Chengzhong Xu](https://www.fst.um.edu.mo/personal/czxu/) and [Prof. Li Li](https://www.fst.um.edu.mo/personal/llili/). Before this, I received my B.Eng. in Software Engineering from [Harbin Institute of Technology](https://en.hit.edu.cn) in 2024.
 
-I am actively open to research discussions and industry connections! Feel free to email me if you are interested in collaborating or sharing ideas. 
+I am actively open to research discussions and industry connections! Feel free to email me if you are interested in collaborating 😊
 
-I am interested in natural language processing and machine learning, with a particular focus on the efficient post-training of large language models (LLMs) under critical memory, communication, and compute constraints. My research also focuses on mitigating hallucinations in multimodal LLMs to address perceptual deficiencies. Moving forward, my research interests are expanding into the application of Embodied Agents, Physical AI, and Autonomous Driving.
+My current research centers on **Safety-Critical Embodied Systems Powered by LLM Agents**. I aim to build safe, adaptive, and trustworthy embodied systems—such as autonomous vehicles and robots—that can perceive risk, reason under uncertainty, and make reliable decisions in complex, long-tail real-world scenarios. To this end, I explore memory-augmented and model-driven LLM/VLM agents for embodied intelligence and safety mechanisms for risk perception, cognition, and decision-making in Physical AI and Autonomous Driving.
+
+Previously, my work focused on natural language processing and machine learning, with a particular emphasis on the efficient post-training of large language models (LLMs) under critical memory, communication, and compute constraints, as well as mitigating hallucinations in multimodal LLMs to address perceptual deficiencies. These foundations in efficient and reliable LLMs now underpin my move toward trustworthy embodied agents.
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 

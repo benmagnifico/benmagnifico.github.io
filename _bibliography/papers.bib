@@ -1,15 +1,28 @@
 ---
 ---
 
+@inproceedings{wu2026protune,
+  abbr       = {ACM SoCC},
+  title      = {Memory-Decoupled Layer-Wise Fine-Tuning for Efficient On-Device LLM Adaptation}, 
+  author     = {Yebo Wu* and Jingguang Li* and Chunlin Tian and Kahou Tam and Zhijiang Guo and Li Li},
+  booktitle  = {ACM SoCC},
+  year       = {2026},
+  selected   = {false},
+  preview    = {Protune.jpg},
+  annotation = {* denotes Equal Contribution.},
+  abstract   = {Federated Fine-Tuning (FFT) is essential for customizing Large Language Models (LLMs) at the edge while preserving data privacy. However, its scalability is severely constrained by the memory bottleneck. Our analysis reveals that the massive static memory footprint of LLM parameters exceeds the physical capacity of edge devices, rendering standard end-to-end training infeasible. In this paper, we propose EdgeLLM, a Cloud-Edge memory management system that democratizes efficient edge LLM adaptation via progressive layer training. Specifically, EdgeLLM re-architects the training process into a sequential pipeline: it dynamically manages the device memory hierarchy by maintaining only a minimal granular subset of layers on-chip while aggressively offloading inactive ones. To maximize system efficiency and convergence stability, EdgeLLM integrates four key components: (1) Resource Scheduler, which continuously probes device runtime memory availability to maximize resource utilization via dynamic workload mapping; (2) Training Coordinator, which bridges the semantic gap caused by offloading via virtualized context synthesis, ensuring coherent feature learning without full-graph residence; (3) Execution Planner, which optimizes the computation path by intelligently pruning redundancy and prioritizing task-critical layers for targeted adaptation; and (4) I/O Manager, which neutralizes the layer-swapping overhead through asynchronous prefetching and eviction. Comprehensive evaluations demonstrate that EdgeLLM effectively breaks the memory wall, unlocking participation for resource-constrained devices previously excluded from the training cohort. Compared to state-of-the-art baselines, EdgeLLM delivers up to 11.86% performance improvement, accelerates model convergence by 2.08x, and reduces communication overhead by 1.78x.}
+}
+
 @inproceedings{wu2026beyond,
   abbr       = {ACL},
   title      = {Beyond End-to-End: Dynamic Chain Optimization for Private LLM Adaptation on the Edge}, 
   author     = {Yebo Wu* and Jingguang Li* and Chunlin Tian and Kahou Tam and Zhijiang Guo and Li Li},
-  booktitle  = {ACL},
+  booktitle  = {ACL (Oral)},
   year       = {2026},
   html       = {https://arxiv.org/abs/2604.06819},
   selected   = {true},
   preview    = {Profit.jpg},
+  annotation = {* denotes Equal Contribution.},
   abstract   = {Federated fine-tuning enables privacy-preserving LLM adaptation but faces a critical bottleneck: the disparity between LLMs' high memory demands and edge devices' limited capacity. To break the memory barrier, we propose Chain Federated Fine-Tuning (ChainFed), an innovative paradigm that forgoes end-to-end updates in favor of a sequential, layer-by-layer manner. It first trains the initial adapter to convergence, freezes its weights, and then proceeds to the next. This iterative train-and-freeze process forms an optimization chain, gradually enhancing the model's task-specific proficiency. ChainFed further integrates three core techniques: 1) Dynamic Layer Co-Tuning to bridge semantic gaps between sequentially tuned layers and facilitate information flow; 2) Globally Perceptive Optimization to endow each adapter with foresight beyond its local objective; 3) Function-Oriented Adaptive Tuning to automatically identify the optimal fine-tuning starting point. Extensive experiments on multiple benchmarks demonstrate the superiority of ChainFed over existing methods, boosting average accuracy by up to 46.46%.}
 }
 
@@ -39,20 +52,20 @@
   abstract   = {Federated fine-tuning enables Large Language Models (LLMs) to adapt to downstream tasks while preserving data privacy, but its resource-intensive nature limits deployment on edge devices. In this paper, we introduce Developmental Federated Tuning (DevFT), a resource-efficient approach inspired by cognitive development that progressively builds a powerful LLM from a compact foundation. DevFT decomposes the fine-tuning process into developmental stages, each optimizing submodels with increasing parameter capacity. Knowledge from earlier stages transfers to subsequent submodels, providing optimized initialization parameters that prevent convergence to local minima and accelerate training. This paradigm mirrors human learning, gradually constructing comprehensive knowledge structure while refining existing skills. To efficiently build stage-specific submodels, DevFT introduces deconfliction-guided layer grouping and differential-based layer fusion to distill essential information and construct representative layers. Evaluations across multiple benchmarks demonstrate that DevFT significantly outperforms state-of-the-art methods, achieving up to 4.59x faster convergence, 10.67x reduction in communication overhead, and 9.07% average performance improvement, while maintaining compatibility with existing approaches.}
 }
 
-@inproceedings{wu2025elastic,
-  abbr       = {arXiv},
+@inproceedings{wu2025smartfed,
+  abbr       = {ICML},
   title      = {Elastic Mixture of Rank-Wise Experts for Knowledge Reuse in Federated Fine-Tuning},
   author     = {Yebo Wu* and Jingguang Li* and Zhijiang Guo and Li Li},
-  booktitle  = {arXiv},
-  year       = {2025},
+  booktitle  = {ICML (Spotlight)},
+  year       = {2026},
   html       = {https://arxiv.org/pdf/2512.00902},
   selected   = {true},
   preview    = {smartfed.jpg},
   annotation = {* denotes Equal Contribution.},
-  abstract   = {Federated fine-tuning offers a promising solution for adapting Large Language Models (LLMs) to downstream tasks while safeguarding data privacy. However, its high computational and communication demands hinder its deployment on resource-constrained devices. In this paper, we propose SmartFed, a resource-efficient federated fine-tuning framework. SmartFed intelligently reuses knowledge embedded in existing LoRA modules, eliminating the need for expensive training from scratch when adapting LLMs to new tasks. To effectively exploit this knowledge and ensure scalability, we introduce the Mixture of Rank-Wise Experts (MoRE). MoRE decomposes LoRA modules into fine-grained rank-level experts. These experts are selectively activated and combined based on input semantics and resource budgets. Moreover, to optimize resource utilization, we present the Elastic Expert Quota Allocation (EEQA). EEQA adaptively allocates expert capacity across parameter matrices based on their contribution to model performance, focusing computing resources on the critical experts. Extensive evaluations across multiple benchmarks demonstrate that SmartFed significantly outperforms existing methods in model performance and training efficiency.}
+  abstract   = {Federated fine-tuning presents a promising avenue for adapting Large Language Models (LLMs) to downstream tasks while preserving data privacy. However, the prohibitive computational and communication overhead of LLM adaptation inhibits its deployment on resource-constrained edge devices. In this paper, we propose SmartFed, a resource-efficient framework that circumvents expensive training from scratch by intelligently reusing knowledge embedded in existing LoRA modules. To fully exploit this potential and ensure scalability, we introduce the Mixture of Rank-Wise Experts (MoRE). MoRE decomposes LoRA modules into fine-grained rank-level experts, which are selectively activated based on input semantics and resource budgets. Furthermore, to optimize resource utilization, we propose Elastic Expert Quota Allocation (EEQA), a strategy that adaptively distributes expert capacity across parameter matrices based on their contribution to model performance. Extensive evaluations across multiple benchmarks demonstrate that SmartFed significantly outperforms state-of-the-art methods in both model performance and training efficiency.}
 }
 
-@inproceedings{wu2025memory,
+@inproceedings{wu2025fedpruner,
   abbr       = {arXiv},
   title      = {Memory-Efficient Federated Fine-Tuning of Large Language Models via Layer Pruning},
   author     = {Yebo Wu* and Jingguang Li* and Chunlin Tian and Zhijiang Guo and Li Li},
