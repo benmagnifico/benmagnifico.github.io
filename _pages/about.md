@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Ph.D. Student from [Cho Chun Shik Graduate School of Mobility](https://mo.kaist.ac.kr/en/), [Korea Advanced Institute of Science and Technology](https://www.kaist.ac.kr/en/)
+subtitle: Ph.D. Student from Cho Chun Shik Graduate School of Mobility, Korea Advanced Institute of Science and Technology
 
 profile:
   align: right
