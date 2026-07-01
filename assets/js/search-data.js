@@ -396,7 +396,21 @@ ninja.data = [{
           section: "News",},{id: "news-our-paper-chainfed-is-accepted-by-acl-main-conference",
           title: 'Our paper ChainFed is accepted by ACL Main Conference 🎉',
           description: "",
-          section: "News",},{id: "projects-project-1",
+          section: "News",},{id: "news-our-paper-memory-decoupled-layer-wise-fine-tuning-for-efficient-on-device-llm-adaptation-is-accepted-by-acm-symposium-on-cloud-computing-2026",
+          title: 'Our paper Memory-Decoupled Layer-Wise Fine-Tuning for Efficient On-Device LLM Adaptation is accepted by...',
+          description: "",
+          section: "News",},{id: "news-our-paper-smartfed-is-accepted-by-icml-2026-as-spotlight",
+          title: 'Our paper SmartFed is accepted by ICML 2026 as spotlight 🎉',
+          description: "",
+          section: "News",},{id: "news-our-paper-chainfed-is-selected-as-oral-by-acl-main-conference",
+          title: 'Our paper ChainFed is selected as Oral by ACL Main Conference 🎉',
+          description: "",
+          section: "News",},{id: "news-honored-with-the-best-of-the-department-of-computer-and-information-science-from-the-university-of-macau",
+          title: 'Honored with the Best of the Department of Computer and Information Science from...',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_8/";
+            },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
           section: "Projects",handler: () => {
@@ -456,7 +470,7 @@ ninja.data = [{
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%6A%69%6E%67%67%75%61%6E%67%6C%69%32%30%30%31@%67%6D%61%69%6C.%63%6F%6D", "_blank");
+          window.open("mailto:%6A%69%6E%67%67%75%61%6E%67%6C%69%32%30%30%31 %41%54 %67%6D%61%69%6C.%63%6F%6D", "_blank");
         },
       },{
         id: 'social-scholar',
